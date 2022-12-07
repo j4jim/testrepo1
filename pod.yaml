@@ -1,0 +1,10 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: jenkubpod
+  labels:
+    app: cubensquare
+spec:
+  containers:
+  - name: mycontainer1
+    image: nginx
